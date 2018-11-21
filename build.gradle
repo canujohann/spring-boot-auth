@@ -29,4 +29,5 @@ dependencies {
 	compile("org.springframework.boot:spring-boot-starter-security")
 	compile("org.hsqldb:hsqldb")
     compile("io.jsonwebtoken:jjwt:0.7.0")
+	compileOnly('org.projectlombok:lombok:1.16.20')
 }
